@@ -3,7 +3,8 @@
 ## Created by Anjuta
 
 uidir = $(datadir)/tmw_charstats/ui
-ui_DATA = tmw_charstats.ui
+ui_DATA = tmw_charstats.ui \
+	games-tmw_small.svg
 
 AM_CPPFLAGS = \
 	-DPACKAGE_LOCALE_DIR=\""$(prefix)/$(DATADIRNAME)/locale"\" \

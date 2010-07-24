@@ -1,4 +1,21 @@
-commit f009e0b50338d46d8504b8b91c959ff378404c85
+commit aede37c78fc8dab5c77d1284ca29abff768e79cb
+Author: Vincent Petithory <vincent.petithory@gmail.com>
+Date:   Sat Jul 24 17:10:14 2010 +0200
+
+    Add window icon
+
+ src/Makefile.am |    3 ++-
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+
+commit 1a4819ea789377d0c34d8af680f96593bc4a3061
+Author: Vincent Petithory <vincent.petithory@gmail.com>
+Date:   Sat Jul 24 16:42:04 2010 +0200
+
+    chmod +x autogen.sh
+
+ 0 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 4959097cc8ee5d7f6f6d5dd769f59534d6bd3c54
 Author: Vincent Petithory <vincent.petithory@gmail.com>
 Date:   Sat Jul 24 16:37:27 2010 +0200
 
@@ -6,13 +23,14 @@ Date:   Sat Jul 24 16:37:27 2010 +0200
 
  .anjuta_sym_db.db    |  Bin 62464 -> 62464 bytes
  .cvsignore           |   37 +++++++++++++++++++++++++++++++++++++
+ ChangeLog            |   47 +++++++++++++++++++++++++++++++++++++++++++++++
  configure.ac         |    7 ++++---
  src/.cvsignore       |   17 +++++++++++++++++
  src/.gitignore       |   23 ++++++++++++++++++++++-
  src/Makefile.am      |   23 +++++++++--------------
  src/tmw_charstats    |  Bin 135453 -> 0 bytes
  tmw_charstats.anjuta |    9 ++++++++-
- 8 files changed, 97 insertions(+), 19 deletions(-)
+ 9 files changed, 144 insertions(+), 19 deletions(-)
 
 commit afdd8e2b44bd4f21f658a50a52d1833d9ee2017f
 Author: Vincent Petithory <vincent.petithory@gmail.com>
