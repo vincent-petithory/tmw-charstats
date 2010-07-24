@@ -1,7 +1,8 @@
 dnl Process this file with autoconf to produce a configure script.
 dnl Created by Anjuta application wizard.
 
-AC_INIT(tmw-charstats, 0.2, http://github.com/vincent-petithory/tmw-charstats)
+AC_INIT(tmw_charstats, 0.2)
+m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
 
 AM_INIT_AUTOMAKE(AC_PACKAGE_NAME, AC_PACKAGE_VERSION)
 AC_CONFIG_HEADERS([config.h])
@@ -18,7 +19,7 @@ AC_HEADER_STDC
 dnl ***************************************************************************
 dnl Internatinalization
 dnl ***************************************************************************
-GETTEXT_PACKAGE=tmw-charstats
+GETTEXT_PACKAGE=tmw_charstats
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [GETTEXT package name])
 AM_GLIB_GNU_GETTEXT
@@ -30,7 +31,7 @@ AM_PROG_LIBTOOL
 
 
 
-PKG_CHECK_MODULES(TMW_CHARSTATS, [gtkmm-2.4 >= 2.16])
+PKG_CHECK_MODULES(TMW_CHARSTATS, [gtkmm-2.4 >= 2.12    ])
 
 
 

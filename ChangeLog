@@ -1,2 +1,49 @@
+commit f009e0b50338d46d8504b8b91c959ff378404c85
+Author: Vincent Petithory <vincent.petithory@gmail.com>
+Date:   Sat Jul 24 16:37:27 2010 +0200
 
+    Changed config in project files
 
+ .anjuta_sym_db.db    |  Bin 62464 -> 62464 bytes
+ .cvsignore           |   37 +++++++++++++++++++++++++++++++++++++
+ configure.ac         |    7 ++++---
+ src/.cvsignore       |   17 +++++++++++++++++
+ src/.gitignore       |   23 ++++++++++++++++++++++-
+ src/Makefile.am      |   23 +++++++++--------------
+ src/tmw_charstats    |  Bin 135453 -> 0 bytes
+ tmw_charstats.anjuta |    9 ++++++++-
+ 8 files changed, 97 insertions(+), 19 deletions(-)
+
+commit afdd8e2b44bd4f21f658a50a52d1833d9ee2017f
+Author: Vincent Petithory <vincent.petithory@gmail.com>
+Date:   Tue Jul 6 19:10:38 2010 +0200
+
+    Initial commit
+
+ .anjuta_sym_db.db       |  Bin 0 -> 62464 bytes
+ .gitignore              |   37 +++
+ COPYING                 |  675 +++++++++++++++++++++++++++++++++++++++++++++++
+ ChangeLog               |    2 +
+ INSTALL                 |    1 +
+ Makefile.am             |   31 +++
+ TODO.tasks              |    6 +
+ autogen.sh              |  159 +++++++++++
+ configure.ac            |   42 +++
+ depcomp                 |    1 +
+ install-sh              |    1 +
+ missing                 |    1 +
+ po/.cvsignore           |   23 ++
+ po/LINGUAS              |    2 +
+ po/Makefile.in.in       |  217 +++++++++++++++
+ po/POTFILES             |    1 +
+ po/POTFILES.in          |    3 +
+ src/.gitignore          |   17 ++
+ src/Makefile.am         |   39 +++
+ src/character.cc        |  128 +++++++++
+ src/character.h         |   54 ++++
+ src/games-tmw_small.svg |  199 ++++++++++++++
+ src/main.cc             |  195 ++++++++++++++
+ src/tmw_charstats       |  Bin 0 -> 135453 bytes
+ src/tmw_charstats.ui    |  416 +++++++++++++++++++++++++++++
+ tmw_charstats.anjuta    |   44 +++
+ 26 files changed, 2294 insertions(+), 0 deletions(-)
